@@ -16,11 +16,10 @@ If the sensor is placed in a cushioned surface, any forces applied to this surfa
 ## Installation
 ![Flex sensor setup](doc/flex-sensor-setup.png "Flex sensor setup")
 * Install Arduino.
-* Download and extrace project folder.
-* Connect the flex sensor to the Arduino:
-	Connect one end to +5V and the other end to the resistor to ground. The point between the resistor and the sensor connects to A8 (pin 62) of the Arduino. You may add a second flex sensor and connect it to A9 (pin 63).
+* Download and extract the project folder.
+* Setup the flex sensor: Connect one end to +5V and the other end to the resistor to ground. The point between the resistor and the sensor connects to A8 (pin 62) of the Arduino. You may add a second flex sensor and connect it to A9 (pin 63).
 * Plug-in the Arduino to the computer, upload code:
-	* Open FlexSensor.ino
+	* Open [FlexSensor.ino][FlexSensor.ino]
 	* Select Tools/Board/Arduino Mega 2560 (or Arduino Due if using this board and having downloaded support from the Board Manager).
 	* Select Tools/Port corresponding to board.
 	* Click on Sketch/Upload
@@ -40,7 +39,7 @@ This project is licensed under the [GNU GPLv3 License][LICENSE.md].
 [Leonardo Molina]: https://github.com/leomol
 [LICENSE.md]: LICENSE.md
 [Arduino]: https://www.arduino.cc/en/Main/Software
-[Flex Sensor]: FlexSensor
+[FlexSensor.ino]: FlexSensor.ino
 [ArduinoMega2560]: https://store.arduino.cc/usa/arduino-mega-2560-rev3
 [ArduinoDue]: https://store.arduino.cc/usa/arduino-due
 [FlexSensorPart]: https://www.adafruit.com/product/182
